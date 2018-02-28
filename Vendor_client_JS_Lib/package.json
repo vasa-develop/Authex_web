@@ -1,0 +1,16 @@
+{
+  "name": "vendor_client_js_lib",
+  "version": "1.0.0",
+  "description": "execute \"npm install\" to install the dependencies.",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "vasa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "websocket": "^1.0.25"
+  }
+}
